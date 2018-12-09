@@ -22,6 +22,7 @@ killTomcat()
 }
 cd $PROJ_PATH/order
 mvn clean install
+echo mvn install is over
 
 # 停tomcat
 killTomcat
